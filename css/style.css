@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Xanh+Mono:ital@0;1&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../assets/cheetahprint.jpg');
+  background-repeat: repeat;
+  background-color: #ff3399;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(206, 17%, 28%);
+}
+
+h1 {
+  font-family: 'Xanh Mono';
+}
+
+p {
+  font-family: 'DotGothic16';
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
+
+.card-header {
+  font-family: 'Xanh Mono';
+}
+
+.card-header::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
+}
+
+.card-body {
+  min-height: 100px;
+  font-family: 'DotGothic16';
+  color: white;
+  background-color: #707070;
+  text-align: center;
+}
+
+.card-footer {
+  text-align: center;
+
+}
+
+.card-footer::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
+}
+
+.card-footer::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.btn {
+  color: black;
+  border-color: black;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px 3px;
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+}
+
+.btn:hover {
+ color: white;
+ cursor: pointer;
+ transition: transform 150ms;
+ transform: scale(1.15);
+}
+
+button[disabled]:hover {
+  cursor: not-allowed;
+  transform: none;
+  background: black;
+  color: white;
+}
+
+a#start-btn.btn {
+  font-family: 'DotGothic16';
+  background-color: #ff3399;
+}
+
+a#highscore-btn.btn {
+  font-family: 'DotGothic16';
+  background-color: #00ff00;
+}
+
+.float-right {
+  float: right;
+}
+
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+/* Question = Xanh Mono
+Answers = DotGothic16 */
