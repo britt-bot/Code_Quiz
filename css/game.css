@@ -29,9 +29,8 @@ body {
 }
 
 .choice-container:hover {
-    cursor: pointer;
-    color: #00ff00;
-    background-color: white;
+    cursor: pointer;    
+    background-color: #00ff00;
     transform: scale(1.02);
     transform: transform 100ms;
 }
@@ -50,7 +49,7 @@ body {
 }
 
 .incorrect {
-    background-color: black;
+    background-color: hsl(0, 0%, 16%);
 }
 
 /* heads up display */
