@@ -1,6 +1,10 @@
+.container {
+  margin: 20px 20px 20px 300px;
+}
+
 #finalScore {
-  width: 70%;
-  margin: 20px;
+  width: 50%;
+  margin: 20px 20px 20px 125px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -11,32 +15,32 @@
 }
 
 .end-form-container {
-  width: 70%;
-  margin: 20px;
+  width: 75%;
+  /* margin: 20px; */
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: hsl(0, 0%, 16%);
 }
 
 input {
-  margin-bottom: 12px;
   width: 75%;
   padding: 1.5rem;
   font-size: 1.8rem;
-  border: none;
+  border-color: white;
+  border-radius: 4px;
   box-shadow: 0 0.1rem 1.4rem 0  hsl(0, 0%, 16%);
+  background-color: hsl(0, 0%, 16%);
 }
 
 input::placeholder {
   color: #00ff00;
   text-align: center;
+  font-family: 'Xanh Mono';
 }
 
 #username {
-  margin-bottom: 3rem;
   width: 100%;
   outline: none;
 }
@@ -49,4 +53,33 @@ input::placeholder {
 
 #saveScoreBtn {
   border: none;
+  background-color: white;
+  color:hsl(0, 0%, 16%);
+  font-family: 'DotGothic16';
+}
+
+#saveScoreBtn:hover {
+    color: white;
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.15);
+    background-color: #ff3399;
+}
+
+.card-body {
+    background-color: hsl(0, 0%, 16%);
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 4px;
+    width: 75%;
+}
+
+#playAgain-btn {
+    background-color: #ff3399;
+    font-family: 'DotGothic16';
+}
+
+#goHome-btn {
+    background-color: #00ff00;
+    font-family: 'DotGothic16';
 }
