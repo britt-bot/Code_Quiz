@@ -1,23 +1,31 @@
 body {
-    color: white;
-    background-color: #ff3399;
-}
+    color: white;}
 
 .container {
     justify-content: center;
     display:flex;
-    width: 100%;
-    min-width: 80rem;
+}
+
+#game {
+    background-color: hsl(0, 0%, 16%);
+    width: 70%;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+#question {
+    padding-left: 12px;
 }
 
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 90%;
+    margin: 12px;
+    padding-left: 12px;
+    width: 97.5%;
     border-radius: 4px;
-    background-color: #707070;
+    background-color: #ff3399;
     font-size: 1.25rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px 3px;
+    /* box-shadow: hsl(0, 0%, 16%) 3px 3px 3px 3px; */
 }
 
 .choice-container:hover {
@@ -30,7 +38,6 @@ body {
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: #00ff00;
 }
 
 .choice-text {
@@ -50,6 +57,8 @@ body {
 #hud {
     display: flex;
     justify-content: space-between;
+    padding: 0 12px 0 12px;
+
 }
 
 .hud-prefix {
@@ -61,10 +70,14 @@ body {
     text-align: center;
 }
 
+.hud-main-text#score {
+    color: #00ff00;
+}
+
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid #707070;
+    border: 0.2rem solid #00ff00;
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -72,17 +85,17 @@ body {
 
 #progressBarFull {
     height: 100%;
-    background-color: #707070;
+    background-color: #ff3399;
     width: 0%;
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 50%;
+        width: 75%;
     }
-    /* .choice-container {
+    .choice-container {
         min-width: 75%;
-    } */
+    }
     body {
         background-color: #00ff00;
 }
