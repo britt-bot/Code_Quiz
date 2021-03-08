@@ -35,4 +35,4 @@ Screenshots:
 ![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotStartPg.png)
 ![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotQuiz.png)
 ![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotEndPg.png)
-![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/commit/00a4464a2f66155cdd0854667b489b59dc108cbb)
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotScoresPg.png)
