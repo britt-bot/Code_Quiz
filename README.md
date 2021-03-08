@@ -2,6 +2,8 @@
 Homework 04 - Web APIs: Code Quiz
 
 Description:
+*NOTE: I made it ugly on purpose. I had to channel my anger for the project somehow. :P*
+
 The requirements for this homework assignment were to create a timed, multiple choice, JavaScript Fundamentals quiz. This quiz is also required to:
  -run in the browser and 
  -present a 'clean - polished - responsive user interface' that 
@@ -27,4 +29,4 @@ Helped with fine-tuning my timer.
 
 YouTube @BrianDesign-
 https://www.youtube.com/watch?v=f4fB9Xg2JEY
-Used this tutorial to fine tune some of the things not working in my original code. 
+Used this tutorial to follow along with will adjusting it to fit what I had already coded. It was a huge help to actually do things as he was explaining. 
