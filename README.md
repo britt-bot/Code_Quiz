@@ -30,3 +30,9 @@ Helped with fine-tuning my timer.
 YouTube @BrianDesign-
 https://www.youtube.com/watch?v=f4fB9Xg2JEY
 Used this tutorial to follow along with will adjusting it to fit what I had already coded. It was a huge help to actually do things as he was explaining. 
+
+Screenshots:
+![ScreenShot](scrnshotStartPg.png)
+![ScreenShot](scrnshotQuiz.png)
+![ScreenShot](scrnshotEndPg.png)
+![ScreenShot](scrnshotScoresPg.png)
