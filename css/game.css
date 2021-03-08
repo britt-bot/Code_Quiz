@@ -11,6 +11,7 @@ body {
     width: 70%;
     margin: 20px;
     border-radius: 4px;
+    box-shadow: hsl(0, 0%, 16%) 3px 3px 3px 3px;
 }
 
 #question {

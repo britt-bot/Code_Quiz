@@ -30,12 +30,12 @@ body {
 header {
   text-align: center;
   padding: 2px;
-  /* padding-top: 0px; */
   color: white;
   background-color: hsl(0, 0%, 16%);
   border-radius: 4px;
   width: 75%;
   margin-left: 157px;
+  box-shadow: hsl(0, 0%, 16%) 3px 3px 3px 3px;
 }
 
 h1 {
