@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=f4fB9Xg2JEY
 Used this tutorial to follow along with will adjusting it to fit what I had already coded. It was a huge help to actually do things as he was explaining. 
 
 Screenshots:
-![ScreenShot](scrnshotStartPg.png)
-![ScreenShot](scrnshotQuiz.png)
-![ScreenShot](scrnshotEndPg.png)
-![ScreenShot](scrnshotScoresPg.png)
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotStartPg.png)
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotQuiz.png)
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotEndPg.png)
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/commit/00a4464a2f66155cdd0854667b489b59dc108cbb)
