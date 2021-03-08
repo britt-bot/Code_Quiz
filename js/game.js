@@ -10,6 +10,8 @@ let score = 0
 let questionCounter = 0
 let availableQuestions = {}
 
+var timerEl = document.getElementById('countdown');
+
 let questions = [{
     question: "What is this symbol in JavaScript '%'?",
     choice1: 'Percent', 
@@ -66,9 +68,10 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('end.html')
     }
 
+    // needs to be timer
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
@@ -101,6 +104,10 @@ choices.forEach(choice => {
             incrementScore(SCORE_POINTS)
         }
 
+        if(classToApply === 'incorrect') {
+            decreaseScore(SCORE_POINTS)
+        }
+
         selectedChoice.parentElement.classList.add(classToApply)
 
         setTimeout(() => {
@@ -111,10 +118,44 @@ choices.forEach(choice => {
     })
 })
 
+// Timer that counts down from 5
+function countdown() {
+    var timeLeft = 15;
+  
+    // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
+    var timeInterval = setInterval(function () {
+      // As long as the `timeLeft` is greater than 1
+      if (timeLeft > 1) {
+        // Set the `textContent` of `timerEl` to show the remaining seconds
+        timerEl.textContent = timeLeft + ' seconds remaining';
+        // Decrement `timeLeft` by 1
+        timeLeft--;
+      } else if (timeLeft === 1) {
+        // When `timeLeft` is equal to 1, rename to 'second' instead of 'seconds'
+        timerEl.textContent = timeLeft + ' second remaining';
+        timeLeft--;
+      } else {
+        // Once `timeLeft` gets to 0, set `timerEl` to an empty string
+        timerEl.textContent = '';
+        // Use `clearInterval()` to stop the timer
+        clearInterval(timeInterval);
+        // Call the `displayMessage()` function
+        displayMessage();
+      }
+    }, 1000);
+  }
 
 incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
 
+decreaseScore = num => {
+    score -=num
+    scoreText.innerText = score
+}
+
 startGame()
+
+
+

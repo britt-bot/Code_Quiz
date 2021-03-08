@@ -32,6 +32,8 @@ input {
   border-radius: 4px;
   box-shadow: 0 0.1rem 1.4rem 0  hsl(0, 0%, 16%);
   background-color: hsl(0, 0%, 16%);
+  color: #00ff00;
+  font-family: 'Xanh Mono';
 }
 
 input::placeholder {

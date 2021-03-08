@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>High Scores</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/end.css"/>
     <link rel="stylesheet" href="css/scores.css"/>
 
 </head>
 <body>
     <div class="container">
-        <div id="highScore" class="flex-center flex-column">
-            <h1 id="finalScore">Leaderboard</h1>
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="leaderBoard">Leaderboard</h1>
             <ul id="highScoresList"></ul>
-            <a href="game.html" id="playAgain-btn" class="btn">Play Again</a>
-            <a href="/" id="goHome-btn" class="btn">Go Home</a>
+
+            <div class="card-body">
+                <a href="game.html" id="playAgain-btn" class="btn">Play Again</a>
+                <a href="/" id="goHome-btn" class="btn">Go Home</a>
+              </div>
         </div>
     </div>
+    <script src="js/scores.js"></script>
 </body>
 </html>
