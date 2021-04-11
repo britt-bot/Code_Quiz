@@ -22,9 +22,9 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Homework 04 - Code Quiz Repo](https://github.com/britt-bot/08-updated_portfolio)
+[Homework 04 - Code Quiz Repo](https://github.com/britt-bot/04-Code_Quiz)
 
-[Homework 04 - Code Quiz Deployed](https://britt-bot.github.io/08-Updated_Portfolio/)
+[Homework 04 - Code Quiz Deployed](https://britt-bot.github.io/04-Code_Quiz/)
 
 
 ## Usage 
