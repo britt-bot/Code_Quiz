@@ -1,7 +1,6 @@
 # 04-Code_Quiz
-Homework 04 - Web APIs: Code Quiz
+## Description 
 
-Description:
 *NOTE: I made it ugly on purpose. I had to channel my anger for the project somehow. :P*
 
 The requirements for this homework assignment were to create a timed, multiple choice, JavaScript Fundamentals quiz. This quiz is also required to:
@@ -9,12 +8,41 @@ The requirements for this homework assignment were to create a timed, multiple c
  -present a 'clean - polished - responsive user interface' that 
  -stores the high scores to be able to gauge progress compared to ones' peers -while featuring dynamically updated HTML and CSS, powered by JS.
 
+## Table of Contents 
+
+This table of contents is to make it easy for users to find what they need.
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
 
+## Installation
 
-Credits:
+Open the desired web browser and go to the page url for either the Repo or the Deployed project.
+
+[Homework 04 - Code Quiz Repo](https://github.com/britt-bot/08-updated_portfolio)
+
+[Homework 04 - Code Quiz Deployed](https://britt-bot.github.io/08-Updated_Portfolio/)
+
+
+## Usage 
+
+A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles.
+
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotStartPg.png)
+
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotQuiz.png)
+
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotEndPg.png)
+
+![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotScoresPg.png)
+
+## Credits
+
 Background Image: 
-http://clipart-library.com/clipart/pT5reEdjc.htm
+[IMG](http://clipart-library.com/clipart/pT5reEdjc.htm)
 
 Code:
 Web Api's Lesson 10 - Timers & Intervals-
@@ -23,16 +51,35 @@ I used and adjusted this for my timer and adjusted/altered as needed.
 Password Generator - Homework 3-
 Used the HTML and CSS as the base for my layout and adjusted/altered as needed.
 
-Github @wendyhub-
-https://github.com/wendyhub/code-quiz/blob/master/quizjs.js
+[@wendyhub - GitHub](https://github.com/pkriengsiri)
+
+[@wendyhub - Quiz](https://github.com/wendyhub/code-quiz/blob/master/quizjs.js)
 Helped with fine-tuning my timer.
 
-YouTube @BrianDesign-
-https://www.youtube.com/watch?v=f4fB9Xg2JEY
+[@BrianDesign - YouTube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
 Used this tutorial to follow along with will adjusting it to fit what I had already coded. It was a huge help to actually do things as he was explaining. 
 
-Screenshots:
-![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotStartPg.png)
-![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotQuiz.png)
-![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotEndPg.png)
-![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotScoresPg.png)
+
+## License
+
+MIT License
+
+Copyright (c) 2021 Britt Bot
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
