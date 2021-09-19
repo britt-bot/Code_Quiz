@@ -22,9 +22,9 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Homework 04 - Code Quiz Repo](https://github.com/britt-bot/04-Code_Quiz)
+[Homework 04 - Code Quiz Github Repo](https://github.com/britt-bot/04-Code_Quiz)
 
-[Homework 04 - Code Quiz Deployed](https://britt-bot.github.io/04-Code_Quiz/)
+[Homework 04 - Code Quiz Github Deploy](https://britt-bot.github.io/04-Code_Quiz/)
 
 
 ## Usage 
@@ -39,6 +39,7 @@ A portfolio is a gathering of completed and in progress works, that are used to 
 
 ![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotScoresPg.png)
 
+
 ## Credits
 
 Background Image: 
@@ -51,13 +52,7 @@ I used and adjusted this for my timer and adjusted/altered as needed.
 Password Generator - Homework 3-
 Used the HTML and CSS as the base for my layout and adjusted/altered as needed.
 
-[@wendyhub - GitHub](https://github.com/pkriengsiri)
-
-[@wendyhub - Quiz](https://github.com/wendyhub/code-quiz/blob/master/quizjs.js)
-Helped with fine-tuning my timer.
-
-[@BrianDesign - YouTube](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
-Used this tutorial to follow along with will adjusting it to fit what I had already coded. It was a huge help to actually do things as he was explaining. 
+[@wendyhub - Quiz](https://github.com/wendyhub/code-quiz/blob/master/quizjs.js) - Helped with fine-tuning my timer.
 
 
 ## License
