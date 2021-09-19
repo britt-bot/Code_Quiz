@@ -1,3 +1,4 @@
+![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 # 04-Code_Quiz
 ## Description 
 
