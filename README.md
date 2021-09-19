@@ -4,7 +4,7 @@
 
 *NOTE: I made it ugly on purpose. I had to channel my anger for the project somehow. :P*
 
-The requirements for this homework assignment were to create a timed, multiple choice, JavaScript Fundamentals quiz. This quiz is also required to:
+The requirements for this assignment were to create a timed, multiple choice, JavaScript Fundamentals quiz. This quiz is also required to:
  -run in the browser and 
  -present a 'clean - polished - responsive user interface' that 
  -stores the high scores to be able to gauge progress compared to ones' peers -while featuring dynamically updated HTML and CSS, powered by JS.
@@ -23,14 +23,14 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Homework 04 - Code Quiz Github Repo](https://github.com/britt-bot/04-Code_Quiz)
+[Code Quiz Github Repo](https://github.com/britt-bot/04-Code_Quiz)
 
-[Homework 04 - Code Quiz Github Deploy](https://britt-bot.github.io/04-Code_Quiz/)
+[Code Quiz Github Deploy](https://britt-bot.github.io/04-Code_Quiz/)
 
 
 ## Usage 
 
-A portfolio is a gathering of completed and in progress works, that are used to showcase a skilled person's end results and/or work styles.
+This app is a Coding Quiz.
 
 ![ScreenShot](https://github.com/britt-bot/04-Code_Quiz/blob/main/assets/scrnshotStartPg.png)
 
@@ -50,7 +50,7 @@ Code:
 Web Api's Lesson 10 - Timers & Intervals-
 I used and adjusted this for my timer and adjusted/altered as needed.
 
-Password Generator - Homework 3-
+Password Generator - 
 Used the HTML and CSS as the base for my layout and adjusted/altered as needed.
 
 [@wendyhub - Quiz](https://github.com/wendyhub/code-quiz/blob/master/quizjs.js) - Helped with fine-tuning my timer.
