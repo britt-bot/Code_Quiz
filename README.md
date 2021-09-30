@@ -18,9 +18,9 @@ This table of contents is to make it easy for users to find what they need.
 
 Open the desired web browser and go to the page url for either the Repo or the Deployed project.
 
-[Code Quiz Github Repo](https://github.com/britt-bot/04-Code_Quiz)
+[Code Quiz Repo](https://github.com/britt-bot/04-Code_Quiz)
 
-[Code Quiz Github Deploy](https://britt-bot.github.io/04-Code_Quiz/)
+[Code Quiz Deploy](https://britt-bot.github.io/04-Code_Quiz/)
 
 
 ## Usage 
