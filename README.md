@@ -1,13 +1,8 @@
 ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-# 04-Code_Quiz
+# Code_Quiz
 ## Description 
 
-*NOTE: I made it ugly on purpose. I had to channel my anger for the project somehow. :P*
-
-The requirements for this assignment were to create a timed, multiple choice, JavaScript Fundamentals quiz. This quiz is also required to:
- -run in the browser and 
- -present a 'clean - polished - responsive user interface' that 
- -stores the high scores to be able to gauge progress compared to ones' peers -while featuring dynamically updated HTML and CSS, powered by JS.
+This quiz is a timed, multiple choice, JavaScript Fundamentals quiz. 
 
 ## Table of Contents 
 
